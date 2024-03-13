@@ -21,8 +21,8 @@ const Copyright = () => {
 	return (
 		<Typography variant="body2" color="primary" align="center">
 			{"Copyright "}
- 			<Link color="primary" href="#">
- 				Multiconversa
+ 			<Link color="primary" href="https://wa.link/kse5bs">
+ 				Link Tecnologia
  			</Link>{" "}
  			{new Date().getFullYear()}
  			{"."}
