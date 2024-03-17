@@ -22,10 +22,15 @@ app.set("queues", {
   sendScheduledMessages
 });
 
+const allowedOrigins = [
+  process.env.FRONTEND_URL,
+  'http://localhost:(?)'
+];
+
 app.use(
   cors({
-    credentials: true,
-    origin: '*'
+	origin: allowedOrigins,
+    credentials: true
   })
 );
 
