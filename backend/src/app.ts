@@ -28,6 +28,8 @@ app.use(
     origin: '*'
   })
 );
+
+app.disable('x-powered-by');
 app.use(cookieParser());
 app.use(express.json());
 app.use(Sentry.Handlers.requestHandler());
