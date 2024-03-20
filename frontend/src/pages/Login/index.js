@@ -142,6 +142,8 @@ const Login = () => {
 							>
 								{i18n.t("login.buttons.register")}
 							</Link>
+						</Grid>
+						<Grid item>							
 							<Link
 								href="https://wa.me/5541999944297?text=Falo+sobre+o+telk">
 								Suporte (41) 9 9994-4297
