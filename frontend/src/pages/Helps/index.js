@@ -87,6 +87,7 @@ const Helps = () => {
 				</MainHeaderButtonsWrapper>
 			</MainHeader>
 			<Paper className={classes.mainPaper} variant="outlined">
+				<a href="https://wa.me/5541999944297?text=Falo+sobre+o+telk">Suporte (41)9 9994-4297</a>
 				{ renderHelps() }
 			</Paper>
 		</MainContainer>
