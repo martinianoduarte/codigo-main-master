@@ -21,8 +21,8 @@ const Copyright = () => {
 	return (
 		<Typography variant="body2" color="primary" align="center">
 			{"Copyright "}
- 			<Link color="primary" href="https://wa.link/kse5bs">
- 				Link Tecnologia
+ 			<Link color="primary" href="https://api.whatsapp.com/send?phone=5543998097486">
+ 				Chat Unity
  			</Link>{" "}
  			{new Date().getFullYear()}
  			{"."}
@@ -145,8 +145,8 @@ const Login = () => {
 						</Grid>
 						<Grid item>							
 							<Link
-								href="https://wa.me/5541999944297?text=Falo+sobre+o+telk">
-								Suporte (41) 9 9994-4297
+								href="https://wa.me/5543998097486?text=Falo+sobre+o+Chat+Unity">
+								Suporte (43) 9 9809-7486
 							</Link>
 						</Grid>
 					</Grid> }
